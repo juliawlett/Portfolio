@@ -1,0 +1,78 @@
+/* CSS */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #9b66ff, #945bfd, #6e20ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s linear infinite;
+  }
+  
+  /* Restante do seu CSS para outros elementos */
+  
+
+.fundo {
+    background-color: #ffffff;
+    height: 60px;
+    
+}
+/* .topico{
+    position: relative;
+    margin: 0;
+}
+
+.topico::after{
+    content: "";
+    width: 0%;
+    height: 0.1px;
+    background-color: #2e0066;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.topico:hover::after{
+    width: 100%;
+} */
+.li_topico{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topico{
+    text-decoration: none;
+    transition: 0.5s all; 
+    color: #2f047e;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.topico:hover{
+    color: #15013b;
+}
+
+.fundo_hiword{
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+}
+.imagem{
+  border-radius: 100%;
+  width: 450px;
+  padding: 40px;
+}
