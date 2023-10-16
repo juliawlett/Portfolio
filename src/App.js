@@ -4,7 +4,7 @@ import Portfolio from "./pages/Portfolios";
 function App() {
   return (
     <div className="App">
-      <Route exact path="https://portfolio-3ipfuc3ss-juliawlett.vercel.app/" element={<Portfolio />} />
+      <Route exact path="/" element={<Portfolio />} />
     </div>
   );
 }
